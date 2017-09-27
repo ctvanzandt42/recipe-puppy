@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+input {
+    width: 20vw;
+    padding: 5px;
+    display: flex;
+    font-size: 1rem;
+    margin-bottom: 10px;
+    justify-content: center;
+    border: 1px solid black;
+}
+
+.search-area {
+    width: 80%;
+}
+
+.wrapper {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.recipe {
+    height: 15rem;
+    display: flex;
+    flex-basis: 23%;
+    margin: 2rem 0 2rem 0;
+    background-size: cover;
+    border: 1px solid black;
+    background-repeat: no-repeat;
+}
+
+.title {
+    margin: 1rem;
+    opacity: 0.7;
+    color: white;
+    padding: .3rem;
+    font-size: 1.1rem;
+    align-self: flex-end;
+    background-color: black;
+}
+
+a {
+    color: #f2f1e8;
+    text-decoration: none;
+}
